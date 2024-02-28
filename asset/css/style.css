@@ -1,0 +1,49 @@
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.continer {
+  max-width: 800px;
+  text-align: center;
+  background-color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
+  text-align: center;
+}
+
+h1 table {
+  margin: 20px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: crimson;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+a:hover,
+a:active {
+  background-color: brown;
+}
